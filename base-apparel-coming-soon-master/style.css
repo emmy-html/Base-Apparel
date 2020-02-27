@@ -1,0 +1,23 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Josefin Sans', sans;
+    font-size: 16px;
+    background-image: url('./images/bg-pattern-desktop.svg'); 
+}
+
+.main {
+    display: flex;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.content {
+    flex-direction: row;
+    margin: 0 auto;
+    width: 50%;
+}
+
+.photo img {
+    height: 100%;
+}
